@@ -125,4 +125,4 @@ bash test.sh /data/testing/ solution.csv
 - Testing: bash test.sh /data/testing/ solution.csv
 6 hr in a CPU based machine (+ 30 min, if processed data file needs to be generated again. Usually this file will be generated during the training phase (200MB))
 
-For detailes, please refer to summery-UrbanRad file.
+For detailes, please refer to summery-documentation file.
