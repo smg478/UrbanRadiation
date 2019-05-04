@@ -7,7 +7,7 @@
 
 
 # Detecting Radiological Threats in Urban Areas
-The goal of this challenge was to find the presence of radioactive sources in urban setting using gamma ray detector (NaI(Tl)). Particularly, presence of 6 different types of sources need to be identified here while travelling with the detector at various speeds. Detailes of this challenge can be found in https://www.topcoder.com/challenges/30085346
+The goal of this challenge was to find the presence of radioactive sources in urban setting using gamma ray detector (NaI(Tl)). Particularly, presence of 6 different types of sources need to be identified here while travelling with the detector at various speeds. Detailes of this challenge can be found in https://www.topcoder.com/challenges/30085346. Code in this repo complies with the requirements from here: https://docs.google.com/document/d/17QuWdnKX0KZpP-7h0a186Sx6HpsQssT-QnsnQTYTIkk/edit.
 
 ![alt text][image1]
 ![alt text][image2]
@@ -19,7 +19,7 @@ The goal of this challenge was to find the presence of radioactive sources in ur
 Data is assumed to be in 'data/' folder. Another empty folder 'wdata/' is needed for temporary file writing.
 
 ```
-  data/
+data/
     trainingAnswers.csv
     training/
       100001.csv
@@ -30,7 +30,7 @@ Data is assumed to be in 'data/' folder. Another empty folder 'wdata/' is needed
       200002.csv
       ...
    
-   wdata/
+wdata/
 ```      
 The folder consists of 7 scripts that do data preparation, training and prediction. Scripts are written in python language.
 
@@ -101,7 +101,7 @@ docker build -t smg478 .
 ```
 docker run -v <local_data_path>:/data:ro -v <local_writable_area_path>:/wdata -it <id>
 ```
-- Inference on pre-built model
+- Inference using pre-built model
 ```
 bash test.sh /data/testing/ solution.csv
 ```
@@ -122,4 +122,4 @@ bash test.sh /data/testing/ solution.csv
 - Testing: bash test.sh /data/testing/ solution.csv
 6 hr in a CPU based machine (+ 30 min, if processed data file needs to be generated again. Usually this file will be generated during the training phase (200MB))
 
-For detailes, please read summery-UrbanRad file
+For detailes, please refer to summery-UrbanRad file.
