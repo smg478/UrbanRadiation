@@ -3,7 +3,6 @@
 [image2]: ./res/img2.png
 [image3]: ./res/img3.png
 [image4]: ./res/img4.png
-[image5]: ./res/figs.png
 
 
 
@@ -85,7 +84,7 @@ Output files will be saved under ‘wdata/submits’ folder
 
 - Outputs the final predictions and saves it to the current directory.
 
-![alt text][image5]
+![alt text][image3]
 
 ## How to run the code
 
