@@ -18,6 +18,20 @@ The goal of this challenge was to find the presence of radioactive sources in ur
 
 Data is assumed to be in 'data/' folder. Another empty folder 'wdata/' is needed for temporary file writing.
 
+```
+  data/
+    trainingAnswers.csv
+    training/
+      100001.csv
+      100002.csv
+      ...
+    testing/
+      200001.csv
+      200002.csv
+      ...
+   
+   wdata/
+```      
 The folder consists of 7 scripts that do data preparation, training and prediction. Scripts are written in python language.
 
 Training and testing both can be done on a CPU based machine. However, training in a GPU is much faster. Testing using GPU doesn’t concern much.
