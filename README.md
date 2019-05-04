@@ -7,7 +7,7 @@
 
 
 # Detecting Radiological Threats in Urban Areas
-The goal of this challenge was to find the presence of radioactive sources in urban setting using gamma ray detector (NaI(Tl)). Particularly, presence of 6 different types of sources need to be identified here while travelling with the detector at various speeds. Detailes of this challenge can be found in https://www.topcoder.com/challenges/30085346. Code in this repo complies with the requirements from here: https://docs.google.com/document/d/17QuWdnKX0KZpP-7h0a186Sx6HpsQssT-QnsnQTYTIkk/edit.
+The goal of this challenge was to find the presence of radioactive sources in urban setting using gamma ray detectors. Particularly, presence of 6 different types of radioactive sources need to be identified while travelling with the detector-NaI(Tl) at various speeds. Detailes of this challenge can be found in https://www.topcoder.com/challenges/30085346. Code in this repo complies with the requirements from here: https://docs.google.com/document/d/17QuWdnKX0KZpP-7h0a186Sx6HpsQssT-QnsnQTYTIkk/edit.
 
 ![alt text][image1]
 ![alt text][image2]
