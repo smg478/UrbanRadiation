@@ -52,6 +52,8 @@ Training and testing both can be done on a CPU based machine. However, training 
 03_train_ANN_CNN.py
 ```
 
+![alt text][image4]
+
 - This script trains a hybrid model of convolutional neural network (CNN) and multi-layer perceptron (MLP) neural network using training features generated in script 02.
 - Model weights will be saved in ‘weights/’ folder as well as in ‘wdata/weights’ folder
 
