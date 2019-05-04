@@ -87,7 +87,7 @@ Output files will be saved under ‘wdata/submits’ folder
 
 ## How to run the code
 
-The code is expected to run in Docker container. Docker is assumed to be installed in the host computer. This code doesn’t  need a GPU for training or inference. Dockerfile file is sufficient for a cpu only machine. It installes necessary python dependancies on a Ubuntu 16.04 OS.
+The code is expected to run in Docker container. Docker is assumed to be installed in the host computer. This code doesn’t  need a GPU for training or inference. Dockerfile file is sufficient for a cpu only machine. It installs necessary python dependancies on a Ubuntu 16.04 OS.
 
 - start docker
 ```
