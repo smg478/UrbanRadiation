@@ -75,18 +75,30 @@ Output files will be saved under ‘wdata/submits’ folder
 
 The code is expected to run in Docker container. Docker is assumed to be installed in the host computer. This code doesn’t  need a GPU for training or inference. Dockerfile file is sufficient for a cpu only machine. It installes necessary python dependancies on a Ubuntu 16.04 OS.
 
-start docker
-- sudo service docker start
-build solution from the folder that contains Dockerfile
-- docker build -t smg478 .
-Strat container
-- docker run -v <local_data_path>:/data:ro -v <local_writable_area_path>:/wdata -it <id>
-Inference on local built model
-- bash test.sh /data/testing/ solution.csv
-Ttrain
-- bash train.sh /data/training/ /data/trainingAnswers.csv
-Inference on newly trained model - produces solution file on current directory
-- bash test.sh /data/testing/ solution.csv
+- start docker
+```
+sudo service docker start
+```
+- build solution from the folder that contains Dockerfile
+```
+docker build -t smg478 .
+```
+- Strat container
+```
+docker run -v <local_data_path>:/data:ro -v <local_writable_area_path>:/wdata -it <id>
+```
+- Inference on pre-built model
+```
+bash test.sh /data/testing/ solution.csv
+```
+- Train
+```
+bash train.sh /data/training/ /data/trainingAnswers.csv
+```
+- Inference on newly trained model - produces solution file on current directory
+```
+bash test.sh /data/testing/ solution.csv
+```
 
 ### Expected running time:
 - Local PC config: Ubuntu 14.04, Intel i7 (8-core), 32 GB RAM, SSD
